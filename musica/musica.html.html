@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/logo2.png" type="image/png">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        
+
+        <title>Explorando la Cultura de Marruecos</title>
+    </head>
+    <body>
+        <header >
+            <div class="navbar-logo">
+                <a href="../home/index.html">
+                    <img src="assets/logo/logo.png" >
+                </a>
+            </div>
+            <div class="navigation">
+              <ul class="menu">
+                <div class="close-btn"></div>
+                <li class="menu-item"><a href="../home/index.html">Home</a></li>
+                <li class="menu-item">
+                  <a class="sub-btn" href="../historia/historia.html.html">Historia de Marruecos</a>
+                </li>
+                <li class="menu-item">
+                  <a class="sub-btn" href="#">Cultura<i class="fas fa-angle-down arrow"></i></a>
+                  <ul class="sub-menu">
+                    <li class="sub-item"><a href="../Gastronomia/gastronomia.html.html">Gastronomia</a></li>
+                    <li class="sub-item"><a href="../musica/musica.html.html">Música</a></li>
+                    <li class="sub-item"><a href="../Arquitectura/art.html.html">Arquitectura de Marruecos</a></li>
+                    <li class="sub-item"><a href="../festivos/festivos.html.html">festivos en Marruecos</a></li>
+                   
+                  </ul>
+                </li>
+                
+               <li class="menu-item"><a href="../sobre mi/index.html">Sobre mi</a></li>
+               <li class="menu-item"><a href="#contacto">Contact</a></li>
+               <div class="container">
+                <button class="btn btn1">Banner</button>
+                </div>
+              
+              </ul>
+
+              <div class="popup-image">
+                <span>&times;</span>
+                <img src="assets/img/adbannerYoukaiTrail.png" alt="">
+              </div>
+
+            </div>
+            <div class="menu-btn"></div>
+            
+            <script>
+                document.querySelectorAll('.container').forEach(image =>{
+                    image.onclick = () =>{
+                        document.querySelector('.popup-image').style.display = 'block';
+                        
+                    }
+                    
+                });
+
+                document.querySelector('.popup-image span').onclick = () =>{
+                    document.querySelector('.popup-image').style.display = 'none';
+                }
+            </script>
+           
+          </header>
+      
+
+          
+      
+            <!--==================== HOME ====================-->
+            <div class="home" id="home">
+              <div class="background">
+                  <img src="assets/img/banner 3.jpg" class="background-image"   alt="hero-section-image">
+              </div>
+      
+              <div class="home__container container grid">
+                  <div class="home__data">
+                     
+                      <h1 class="home__data-title">MÚSICA </h1>
+                     
+
+                  </div>
+
+                 
+
+                  
+                  </div>
+              </div>
+            </div>
+            
+
+   <!--==================== container ====================-->
+
+            <section class="main-container">
+                <div class="tab-nav-bar">
+                  <div class="tab-navigation">
+                    <i class="uil uil-angle-left  left-btn"></i>
+                    <i class="uil uil-angle-right right-btn"></i>
+                    <ul class="tab-menu">
+                      <li class="tab-btn active">Música popular marroquí</li>
+                      <li class="tab-btn">Música bereber, amazigh o rural</li>
+                      <li class="tab-btn">Música andalusí o clásica</li>
+                      <li class="tab-btn">Música gnawa</li>
+                     
+                     
+                    </ul>
+                  </div>
+                </div>
+              
+              
+              
+                
+        <div class="tab-content">
+              
+                  <div class="tab active">
+                    <div class="row">
+                      <div class="left-column">
+                        <div class="img-card">
+                          <img src="assets/img/IMG MUSICA 1.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="right-column">
+                        <div class="info">
+                          <h2 class="city">Música popular marroquí</h2>
+                          <div class="description">
+                            <p>La música popular marroquí es, en realidad, un término muy genérico que agrupa diferentes tipos de canciones ligeras, con sencilla instrumentación, a menudo cantadas en árabe dialectal (darija) y que se transmiten de padres a hijos, o incluso en la calle de manera espontánea e improvisada. Ejemplos de ello son:
+
+                              Aïta, muy difundida en Marrakech y su entorno, son cantos de sonido muy agudo acompañados por danzas femeninas y tamboriles
+                              Malhun, una especie de canto poético muy ligado a los artesanos, acompañado de una sencilla percusión
+                              N´fir, un género asociado a eventos religiosos populares
+                              </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                   
+                    
+                  </div>
+
+
+                
+                  <div class="tab">
+                    <div class="row">
+                      <div class="left-column">
+                        <div class="img-card">
+                          <img src="assets/img/MUSICA 2.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="right-column">
+                        <div class="info">
+                          <h2 class="city">Música bereber, amazigh o rural</h2>
+                          <div class="description">
+                            <p>Se trata de una música de Marruecos que es inseparable de las danzas populares de las tribus rurales bereberes, especialmente del Atlas. De hecho, una importante fuente de inspiración es el entorno natural, y en otros muchos casos, Dios. Se suelen cantar en grupo con animados ritmos y ricas vestimentas, pero lo verdaderamente omnipresente es el bendir, una especie de pandereta tensada con piel de cabra.
+
+                              Sus canciones están compuestas en los diferentes dialectos del amazigh, la lengua utilizada por los bereberes que, de hecho, prefieren llamarse a sí mismos amazigh (singular) o imazighen (plural), que significa “hombres libres”. Por ello, a menudo se habla de subgéneros según la región que se trate y, por tanto, su dialecto:
+                              
+                              Reggada y aarfa en el Rif, en el norte de Marruecos
+                              Ahidous, en la zona de Souss, en el sur de Marruecos
+                              Chaabi, en Tamazight, en el centro de Marruecos
+                              </p>
+                          
+              
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+            
+
+
+                  <div class="tab">
+                    <div class="row">
+                      <div class="left-column">
+                        <div class="img-card">
+                          <img src="assets/img/MUSICA4.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="right-column">
+                        <div class="info">
+                          <h2 class="city">Música andalusí o clásica
+                          </h2>
+                          <div class="description">
+                            <p>La música andalusí, también conocida a menudo como andaluza, es todo lo contrario a la música bereber o rural: se trata de un género de música de Marruecos de gran refinamiento, que hunde sus raíces en el esplendor cultural de Al-Andalus entre los siglos IX y XV, cuando el sur de España y Marruecos tenían fuertes lazos comunes. Y más concretamente a partir del siglo XIII, cuando las conquistas cristianas en territorio andaluz provocaron el éxodo de muchos andalusíes, que recalaron en ciudades como Fez, Meknes. Tetuán o Rabat, lo que ha dado lugar a subgéneros andalusíes según la ciudad.
+
+                              Ese refinamiento se aprecia, por ejemplo, en la delicadeza de las letras, para las que se emplea el árabe culto. También destaca su sofisticación instrumental, que ejerció una gran influencia en la música occidental: algunos de los utilizados en este estilo son los precursores de otros que alcanzaron gran difusión en la Edad Media europea, como el oud o el rabab, precursores del laúd y del rabel, respectivamente</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                   
+                  </div>
+
+
+
+                
+                  <div class="tab">
+                    <div class="row">
+                      <div class="left-column">
+                        <div class="img-card">
+                          <img src="assets/img/MUSICA 3.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="right-column">
+                        <div class="info">
+                          <h2 class="city">Música gnawa</h2>
+                          <div class="description">
+                            <p>A este género musical hacemos referencia en la página dedicada a las danzas, puesto que es un estilo principalmente bailado. Se trata de un género de música de Marruecos que combina el amazigh con el del África negra. De hecho, la importancia de la percusión y el colorido de los ropajes utilizados nos remite a tipos subsaharianos, que quizás fueron introducidos en el país por parte de los esclavos traídos de países como Sudán. 
+
+                              Entre los instrumentos más destacados están las qraqab o castañuelas metálicas, así como el gimbri, una especie de bajo de tres cuerdas. El Festival de Música Gnawa que cada año se organiza en verano en Essaouira es una de las mejores ocasiones para descubrir este género. Pero también se puede encontrar en cualquier momento del año en localidades como Khamlia, llamado el pueblo de los negros, por donde pasan muchos de nuestros circuitos rumbo al desierto del Sahara.</p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+                  
+
+                  
+                  
+        </div>
+
+
+                
+               </section>
+
+           
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        
+        
+        <script type="text/javascript">
+            //jquery for toggle dropdown menus
+            $(document).ready(function(){
+              //toggle sub-menus
+              $(".sub-btn").click(function(){
+                $(this).next(".sub-menu").slideToggle();
+              });
+        
+              //toggle more-menus
+              $(".more-btn").click(function(){
+                $(this).next(".more-menu").slideToggle();
+              });
+            });
+        
+            //javascript for the responsive navigation menu
+            var menu = document.querySelector(".menu");
+            var menuBtn = document.querySelector(".menu-btn");
+            var closeBtn = document.querySelector(".close-btn");
+        
+            menuBtn.addEventListener("click", () => {
+              menu.classList.add("active");
+            });
+        
+            closeBtn.addEventListener("click", () => {
+              menu.classList.remove("active");
+            });
+        
+
+            nav = document.querySelector('header');
+
+           window.addEventListener('scroll', () => {
+           if (window.scrollY >= 50) {
+            nav.classList.add('active_nav');
+         } else {
+        nav.classList.remove('active_nav');
+          }
+})
+            
+            </script>
+    </body>
+</html>
